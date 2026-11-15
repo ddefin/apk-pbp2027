@@ -1,0 +1,13 @@
+# Clé de signature et mots de passe : JAMAIS dans git (voir README, « Clé de signature »).
+*.keystore
+*.jks
+keystore.env
+
+# Sorties de build
+*.apk
+*.aab
+*.idsig
+build/
+app/build/
+.gradle/
+local.properties
