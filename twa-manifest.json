@@ -1,0 +1,46 @@
+{
+  "packageId": "fr.lameteoducyclo.pbp2027",
+  "host": "pbp2027.lameteoducyclo.fr",
+  "name": "PBP2027 Planner",
+  "launcherName": "PBP2027",
+  "display": "standalone",
+  "themeColor": "#0F2A4F",
+  "themeColorDark": "#0F2A4F",
+  "navigationColor": "#0F2A4F",
+  "navigationColorDark": "#0F2A4F",
+  "navigationDividerColor": "#0F2A4F",
+  "navigationDividerColorDark": "#0F2A4F",
+  "backgroundColor": "#0F2A4F",
+  "enableNotifications": false,
+  "startUrl": "/",
+  "iconUrl": "https://pbp2027.lameteoducyclo.fr/icon-512.png",
+  "maskableIconUrl": "https://pbp2027.lameteoducyclo.fr/icon-maskable-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./android.keystore",
+    "alias": "pbp2027"
+  },
+  "appVersion": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://pbp2027.lameteoducyclo.fr/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {
+    "locationDelegation": {
+      "enabled": true
+    }
+  },
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://pbp2027.lameteoducyclo.fr/",
+  "minSdkVersion": 24,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": []
+}
